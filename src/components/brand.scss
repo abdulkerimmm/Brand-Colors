@@ -1,0 +1,45 @@
+.boxes {
+  padding: 20px;
+  background-color: white;
+  margin-bottom: 25px;
+
+  &.selected {
+    border-color: red;
+    box-shadow: 0 0 0 2px rgba(255, 0, 0, 0.5);
+
+    .colors {
+      .color {
+        flex: 1;
+        span {
+          text-indent: 0;
+        }
+      }
+    }
+  }
+
+  h5 {
+    margin-bottom: 10px;
+    cursor: pointer;
+  }
+
+  .colors {
+    display: flex;
+    flex-direction: row;
+  }
+  .color {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    height: 40px;
+    width: 70px;
+    cursor: pointer;
+
+    span {
+      text-indent: -9999px;
+      font-size: 14px;
+      font-weight: 500;
+    }
+  }
+}

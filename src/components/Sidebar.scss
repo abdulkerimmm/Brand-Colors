@@ -1,0 +1,61 @@
+aside {
+  width: 320px;
+  min-width: 320px;
+  padding: 25px;
+  border-right: 1px solid #ccc;
+  height: 100vh;
+
+  .logo {
+    margin-bottom: 25px;
+    a {
+      font-size: 30px;
+    }
+  }
+
+  .description {
+    font-size: 18px;
+    line-height: 1.7;
+    color: #999;
+    margin-bottom: 25px;
+  }
+
+  nav {
+    ul {
+      li {
+        a {
+          display: block;
+          font-weight: 600;
+          color: #333;
+          &:hover {
+            color: blue;
+          }
+        }
+      }
+    }
+  }
+}
+
+.fd {
+  font-size: 20px;
+}
+
+.modal {
+  h3 {
+    font-size: 26px;
+    margin-bottom: 30px;
+  }
+  p {
+    font-size: 18px;
+    line-height: 1.8;
+    margin-bottom: 20px;
+  }
+}
+
+.close-btn {
+  position: absolute;
+  top: 15px;
+  right: 15px;
+  font-size: 30px;
+  cursor: pointer;
+  background: #ddd;
+}
